@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    border-collapse: separate;
+
+}
+
+table thead {
+    background-color: cadetblue;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+
+}
+
+.coins {
+    max-width: 1000px;
+    margin: 5% auto;
+}
+
+.coins article {
+    background-color: lightblue;
+    padding: 0.5rem;
+    position: fixed;
+    top: 1.5rem;
+    right: 1.5rem;
+}
+
+table tbody tr td {
+    padding: 1rem;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: lightsteelblue;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.buttons button {
+    flex: 1;
+
+    background-color: cadetblue;
+    color: white;
+    font-size: 1rem;
+    padding: 0.625rem 1.25rem;
+    border: none;
+    outline: none;
+    border-radius: 0.3rem;
+    transition: opacity 0.1s ease-in-out;
+}
+
+.buttons button:first-child {
+    margin-right: 2rem;
+}
+
+.buttons button:hover {
+    cursor: pointer;
+    opacity: 0.75;
+}
+
+
+.input{
+    width: 50px;
+    margin-right: 5px;
+    border: 1px solid midnightblue;
+ background-color: inherit;
+    outline: none;
+    padding: 5px;
+}
+
+td .add{
+    width: 200px;
+
+}
+button .submit{
+    background-color: cadetblue;
+    color: white;
+}
+
+
+
+
+.order-box{
+    border: 3px solid cadetblue;
+    margin: 15px 0;
+}
